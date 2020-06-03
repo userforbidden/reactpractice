@@ -31,11 +31,11 @@ body{
   align-items: center;
   padding: 30px 20px 0;
   width:70%;
-  border-bottom: 1px solid #e67b7b;
+  border-bottom: 1px solid #494848;
   font-family: Roboto, sans-serif;
   font-weight: 100;
   font-size: 15px;
-  color: #0fc7be;
+  color: #0b0e0d;
 }
 
 input[type=checkbox]{
