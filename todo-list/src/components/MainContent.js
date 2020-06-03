@@ -3,7 +3,7 @@ import React from "react";
 function MainContent(){
     return (
         <main>
-            <p>This is where most of my content will go ....</p>
+            <p>This is where most of my main content will go ....</p>
         </main>
     )
 }
