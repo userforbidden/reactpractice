@@ -1,7 +1,6 @@
 import React from "react";
 
 function Joke(props){
-    console.log(props)
     return (
         <div className="joke-item">
             <h3 style={{display: !props.line.question && "none"}}>Question: {props.line.question}</h3>

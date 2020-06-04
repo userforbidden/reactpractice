@@ -33,3 +33,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array//some
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex
+
+22.Mapping Components Practice 
+Given a list of products( as an array of Objects, as seen in productsData.js)
+render a <Product /> component(which you'll also need to create) for each product in the list.
+
+Make sure to use the array's `.map()` method to create these components, and don't forget to pass a `key` prop to it to avoid the warning
