@@ -22,3 +22,14 @@ E.g.: "It's hard to explain puns to kleptomaniacs because they always take thing
 If you don't pass in a "question" prop, how might you make it only show the punchline instead?
 
 Spend time practicing the style of your Joke component 
+
+
+Some of these Array related libraries will be useful 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array//some
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex
