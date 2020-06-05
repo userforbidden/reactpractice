@@ -1,7 +1,24 @@
 import React from 'react';
 import './App.css';
 //import TodoHeader from './components/TodoHeader'
+import TodoItem from './components/TodoItem'
 
+class App extends React.Component{
+  constructor(){
+    super()
+    this.state ={
+      answer: "Yes"
+    }
+  }
+  render() {
+    return(
+      <div>
+        <h1>Is state important to know? {this.state.answer}</h1>
+        <TodoItem item={{text: this.state.answer,completed:false}}/>
+      </div>
+    )
+  }
+}
 // function App() {
 //   return (
 //     <div>
@@ -10,7 +27,7 @@ import './App.css';
 //   );
 // }
 
-class App extends React.Component{
+/* class App extends React.Component{
   render() {
     return(
       <div>
@@ -56,6 +73,6 @@ class Greeting extends React.Component{
       <h2 style={styles}>Good {timeOfDay} to you, sir or madam</h2>
     )
   }
-}
+} */
 
 export default App;

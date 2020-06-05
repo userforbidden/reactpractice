@@ -5,7 +5,7 @@ Challenge:
 2. Fix the small bug 
 
 import React from "react"
-import ReactDOm from "react-dom"
+import ReactDom from "react-dom"
 
 // #1
 function App(){
@@ -32,3 +32,6 @@ function Greeting(){
     const hours = date.getHours()
     let timeOfDay
 }
+
+26. State
+Some information on Classes https://scrimba.com/p/p4Mrt9/cQnMDHD
