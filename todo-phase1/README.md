@@ -35,3 +35,8 @@ function Greeting(){
 
 26. State
 Some information on Classes https://scrimba.com/p/p4Mrt9/cQnMDHD
+
+27. State Practice
+Challenge
+Given an incomplete class-based component without a constructor, add a constructor
+and initialize state to fix the broken component.

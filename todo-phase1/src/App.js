@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 //import TodoHeader from './components/TodoHeader'
 import TodoItem from './components/TodoItem'
 
-class App extends React.Component{
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      name: "Saranyan",
+      age : 28
+    }
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+        <h3>{this.state.age} years old</h3>
+      </div>
+    )
+  }
+}
+/* class App extends React.Component{
   constructor(){
     super()
     this.state ={
@@ -18,7 +35,7 @@ class App extends React.Component{
       </div>
     )
   }
-}
+} */
 // function App() {
 //   return (
 //     <div>
