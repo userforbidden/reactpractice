@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import EventApp from './components/EventApp'
+import App from './App';
+//import EventApp from './components/EventApp'
 
 ReactDOM.render(
   <React.StrictMode>
-    <EventApp />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
