@@ -3,7 +3,22 @@ import './App.css';
 //import TodoHeader from './components/TodoHeader'
 import TodoItem from './components/TodoItem'
 
-class App extends Component {
+class App extends Component{
+  constructor(){
+    super()
+    this.state = {
+      isLoggedIn: false
+    }
+  }
+  render (){
+    return (
+      <div>
+        <h1>You are currently logged {this.state.isLoggedIn ? "in" : "out"}</h1>
+      </div>
+    )
+  }
+}
+/* class App extends Component {
   constructor() {
     super()
     this.state = {
@@ -19,7 +34,7 @@ class App extends Component {
       </div>
     )
   }
-}
+} */
 /* class App extends React.Component{
   constructor(){
     super()
