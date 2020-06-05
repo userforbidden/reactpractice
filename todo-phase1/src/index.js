@@ -5,9 +5,9 @@ import App from './App';
 //import EventApp from './components/EventApp'
 
 ReactDOM.render(
-  <React.StrictMode>
+  
     <App />
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 

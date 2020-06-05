@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-//import TodoHeader from './components/TodoHeader'
-import ChangeState from './components/ChangeState';
+import TodoHeader from './components/TodoHeader'
+//import ChangeState from './components/ChangeState';
 //import TodoItem from './components/TodoItem'
 
 /* class App extends Component{
@@ -55,7 +55,7 @@ import ChangeState from './components/ChangeState';
 function App() {
   return (
     <div>
-      <ChangeState />    
+      <TodoHeader />    
     </div>
   );
 }

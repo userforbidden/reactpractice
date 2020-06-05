@@ -60,4 +60,18 @@ https://reactjs.org/docs/events.html#supported-events
 Cleared the OnChange warning on the previous iteration of the Todo App by adding a Event Handler function to log some console output on check box click event 
 
 32. Changing State 
-Created a custom component with a button and a state counter number  
+Created a custom component with a button and a state counter number 
+
+33. Todo App - Phase 6
+    Let's make it so our checkbox can actually mark our todo as complete or incomplete!
+    This challenge is a little more involved than some of the past ones. Check the comments in the code for some help on accomplishing this one
+
+    Challenge:
+    1. Create an event Handler in the App component for when the checkbox is clicked(which is an `onChange` event)
+        a. this method will be the trickest part. Check the comments in the stubbed-out method below for some pseudocode to help guide through this part
+    2. pass the method down to the TodoItem component
+    3. In the TodoItem component, make it so when the `onChange` event happens, it calls the `handleChange` method and passes the id of the todo into the function
+    handleChange(id){
+        //update state so that the item with the given if flips `completed` from false to true(or vise versa)
+        //remember not to modify prevState directly, but instead to return a new version of state with the change you want included in that update. (Think how you might use the`.map` method to do this)
+    }
