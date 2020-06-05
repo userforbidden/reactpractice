@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-//import TodoHeader from './components/TodoHeader'
-import TodoItem from './components/TodoItem'
+import TodoHeader from './components/TodoHeader'
+//import TodoItem from './components/TodoItem'
 
-class App extends Component{
+/* class App extends Component{
   constructor(){
     super()
     this.state = {
@@ -17,7 +17,7 @@ class App extends Component{
       </div>
     )
   }
-}
+} */
 /* class App extends Component {
   constructor() {
     super()
@@ -51,13 +51,13 @@ class App extends Component{
     )
   }
 } */
-// function App() {
-//   return (
-//     <div>
-//       <TodoHeader />    
-//     </div>
-//   );
-// }
+function App() {
+  return (
+    <div>
+      <TodoHeader />    
+    </div>
+  );
+}
 
 /* class App extends React.Component{
   render() {
