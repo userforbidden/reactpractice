@@ -55,3 +55,9 @@ Challenge: Change tha <App /> component into a stateful class component and load
 30. Handling Events in React
 Find full list of React Supported events 
 https://reactjs.org/docs/events.html#supported-events
+
+31. ToDo App Phase-5 
+Cleared the OnChange warning on the previous iteration of the Todo App by adding a Event Handler function to log some console output on check box click event 
+
+32. Changing State 
+Created a custom component with a button and a state counter number  
