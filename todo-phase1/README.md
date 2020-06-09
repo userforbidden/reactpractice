@@ -79,3 +79,9 @@ Created a custom component with a button and a state counter number
 
 https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1
 https://reactjs.org/blog/2018/03/29/react-v-16.3.html#component-lifecycle-changes
+
+35. Lifecycle Methods Part 2
+https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
+we wont be using derivedstate from props, React team also suggests not to use. However if you are interested look into this link https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
+
+getSnapshotBeforeUpdate is also not used frequently. if you need more information you can look into this link https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate

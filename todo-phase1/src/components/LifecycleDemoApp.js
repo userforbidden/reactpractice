@@ -9,6 +9,26 @@ class LifecycleDemoApp extends Component{
     componentDidMount(){
         //GET the data I need to correctly display 
     }
+    /* These three methods are deprecated in version 16 React 
+    componentWillMount(){
+
+    }
+    componentWillReceiveProps(){
+
+    }
+    componentWillUpdate(){
+        
+    } */
+
+    static getDerivedStateFromProps(props,state){
+        //return the new updated state based upon the props
+
+    }
+
+    getSnapshotBeforeUpdate(){
+        // this creates a backup of the current way things are 
+    }
+
     componentWillReceiveProps(nextProps){
         if(nextProps.whatever !== this.props.whatever){
             //do something important here
