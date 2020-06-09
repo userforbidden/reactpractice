@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import TodoHeader from './components/TodoHeader'
+import ConditionalApp from './components/ConditionalApp'
+//import TodoHeader from './components/TodoHeader'
 //import ChangeState from './components/ChangeState';
 //import TodoItem from './components/TodoItem'
 
@@ -55,7 +56,7 @@ import TodoHeader from './components/TodoHeader'
 function App() {
   return (
     <div>
-      <TodoHeader />    
+      <ConditionalApp />    
     </div>
   );
 }
