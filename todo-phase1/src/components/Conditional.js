@@ -1,15 +1,7 @@
 import React from "react"
 
 function Conditional(props){
-    if(props.isLoading){
-        return(
-            <h1>Loading ....</h1>
-        )
-    }else{
-        return(
-            <h1>Some cool stuff about conditional rendering</h1>
-        )
-    }
+    return(<h1>Some cool stuff about conditional rendering</h1>)
     
 }
 

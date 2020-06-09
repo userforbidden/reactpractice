@@ -85,3 +85,6 @@ https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
 we wont be using derivedstate from props, React team also suggests not to use. However if you are interested look into this link https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
 
 getSnapshotBeforeUpdate is also not used frequently. if you need more information you can look into this link https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate
+
+36. Conditional Rendering
+Rendering different view for the components based on the isLoding prop. Usage of ternary operator in React is most frequent. Learn to use that 
