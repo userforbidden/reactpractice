@@ -75,3 +75,7 @@ Created a custom component with a button and a state counter number
         //update state so that the item with the given if flips `completed` from false to true(or vise versa)
         //remember not to modify prevState directly, but instead to return a new version of state with the change you want included in that update. (Think how you might use the`.map` method to do this)
     }
+34. Lifecycle Methods Part 1 
+
+https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1
+https://reactjs.org/blog/2018/03/29/react-v-16.3.html#component-lifecycle-changes
