@@ -88,3 +88,6 @@ getSnapshotBeforeUpdate is also not used frequently. if you need more informatio
 
 36. Conditional Rendering
 Rendering different view for the components based on the isLoding prop. Usage of ternary operator in React is most frequent. Learn to use that 
+
+37. Conditional Rendering Part 2
+here the Instructor talked about the && logical and operator how it works in hte vanilla JavaScript. 

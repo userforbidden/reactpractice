@@ -5,7 +5,8 @@ class ConditionalApp extends Component{
     constructor(){
         super()
         this.state = {
-            isLoading: true
+            isLoading: true,
+            unreadMessages:["a","b"]
         }
     }
 
@@ -20,9 +21,10 @@ class ConditionalApp extends Component{
     render(){
         return(
             <div>
-                {this.state.isLoading ? 
-                <h1>Loading....</h1>:
-                <Conditional/>}
+                {this.state.unreadMessages.length > 0 && 
+                <h2>You have {this.state.unreadMessages.length} unread messages</h2>
+                //<Conditional/>
+                }
             </div>
         )
     }
