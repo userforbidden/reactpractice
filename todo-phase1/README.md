@@ -91,3 +91,20 @@ Rendering different view for the components based on the isLoding prop. Usage of
 
 37. Conditional Rendering Part 2
 here the Instructor talked about the && logical and operator how it works in hte vanilla JavaScript. 
+
+38. Conditional Rendering Practice
+Challenge
+
+Given a stateless functional component:
+1. Follow the steps necessary to add state to it
+    //class-based component
+    //constructor based
+2. Have state keep track of whether the user is logged in or not
+    // isLoggedIn: Boolean(true or false)
+3. add a button that logs the user in/out
+    //event Listener (onClick)
+    a. extra challenge - make the button display "log in" if they're not logged in and "log out" if they are 
+    //conditional rendering
+4. Display text that says "Logged in" if the user is logged in or "Logged out" if they're not.
+    //condtional rendering
+

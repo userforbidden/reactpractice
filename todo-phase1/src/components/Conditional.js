@@ -1,7 +1,11 @@
 import React from "react"
 
 function Conditional(props){
-    return(<h1>Some cool stuff about conditional rendering</h1>)
+    let buttonValue = !props.loggedState ? "Login" : "Logout"
+
+    return(
+    <input type="button" value={buttonValue}></input>
+    )
     
 }
 
