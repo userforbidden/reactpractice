@@ -6,3 +6,8 @@ https://swapi.dev/
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
 In this module. using componentDidMount method loaded the start wars api data and displayed it in the Component home screen
+
+41. Forms Part 1 
+React Docs about Forms:
+https://reactjs.org/docs/forms.html
+input name property should have the same value as the state 
