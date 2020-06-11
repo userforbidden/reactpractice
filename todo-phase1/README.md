@@ -108,3 +108,7 @@ Given a stateless functional component:
 4. Display text that says "Logged in" if the user is logged in or "Logged out" if they're not.
     //condtional rendering
 
+39. Todo App phase 7 
+Make the completed to-do list item look different than the Non-completed one's. 
+This will be the end of Todo App 
+

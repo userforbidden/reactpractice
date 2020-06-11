@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import ConditionalPractice from './components/ConditionalPractice'
+//import ConditionalPractice from './components/ConditionalPractice'
 //import ConditionalApp from './components/ConditionalApp'
-//import TodoHeader from './components/TodoHeader'
+import TodoHeader from './components/TodoHeader'
 //import ChangeState from './components/ChangeState';
 //import TodoItem from './components/TodoItem'
 
@@ -57,7 +57,7 @@ import ConditionalPractice from './components/ConditionalPractice'
 function App() {
   return (
     <div>
-      <ConditionalPractice />    
+      <TodoHeader />    
     </div>
   );
 }
