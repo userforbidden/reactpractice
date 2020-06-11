@@ -11,3 +11,12 @@ In this module. using componentDidMount method loaded the start wars api data an
 React Docs about Forms:
 https://reactjs.org/docs/forms.html
 input name property should have the same value as the state 
+
+42. Forms part 2 
+Other useful form elements:
+<textarea /> element
+<input type="checkbox" />
+<input type="radio" />
+<select> and <option> elements
+
+Formix api helps you create React forms 
