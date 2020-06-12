@@ -32,3 +32,10 @@ This exercise is adapted from the V school curriculum on Vanilla JS forms:
 https://coursework.vschool.io/travel-form/
 
 All of our challenges and learning resources are open for the public to play around with and learn from at https://coursework.vschool.io
+
+44. Container/Component Architecture
+The instructor was speaking about splitting the different components based on logic. presentational, container components, Smart-dumb components
+presentational component
+rendering component 
+
+https://medium.com/@dan_adramov/smart-and-dumb-components-7ca2f9a7c7d0
