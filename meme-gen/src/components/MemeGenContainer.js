@@ -1,9 +1,7 @@
 import React from "react";
-import MemeGenComponent from "./MemeGenComponent"
+import MemeGenComponent from "./MemeGenComponent";
 
-function MemeGen(){
-    return(
-        <MemeGenComponent />
-    )
+function MemeGen() {
+  return <MemeGenComponent />;
 }
-export default MemeGen
+export default MemeGen;
