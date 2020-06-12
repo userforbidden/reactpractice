@@ -39,3 +39,12 @@ presentational component
 rendering component 
 
 https://medium.com/@dan_adramov/smart-and-dumb-components-7ca2f9a7c7d0
+
+45. Meme Generator Capstone Project 
+
+Step 1: Create an App.js and render something using ReactDOM.render method 
+Step2: 
+Create 2 new components - Header and MemeGenerator
+header will only display things 
+MemeGenerator will be calling to an API and holding on to data 
+Each should be in their own file of the same name 
