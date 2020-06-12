@@ -70,3 +70,18 @@ It should update the corresponding state on every change of the input box
 
 Step 7: 
 Create a method that, when the "Gen" button is clicked, chooses one of the memes from our `allMemeImgs` array at random and makes it so that is the meme image that shows up in the bottom portion of our meme generator site `.url`
+
+46. Writing Modern React Apps 
+
+Use of Arrow functions. No need to bind the this.HandleChange functions.
+No need of constructor functions. define state outside without state 
+
+Other Modern/advanced React features/ topins to learn:
+
+Official React Context API - https://reactjs.org/docs/context.html
+Error Boundaries - https://reactjs.org/docs/error-boundaries.html
+render props - https://reactjs.org/docs/render-props.html
+Higher order components - https://reactjs.org/docs/higher-order-components.html
+React Router - https://reacttraining.com/react-router/core/guides/philosophy
+React Hooks - https://reactjs.org/docs/hooks-intro.html
+React Lazy, memo and Suspense - https://reactjs.org/blog/2018/10/23/react-v-16-6.html
